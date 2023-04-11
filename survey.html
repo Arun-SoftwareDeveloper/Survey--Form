@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<style>
+		
+	.rating {
+			padding:8px;
+            background-color: grey;
+           
+		}
+        .radio{
+            padding:8px;
+        }
+  #padding{
+    padding:30px;
+  }
+  body{
+    position:relative;
+    left:320px;
+    border: 2px solid black;
+    width:850px
+  }
+	</style>
+</head>
+<body class="position">
+  
+	<form>
+		<table>
+			<tr>
+				<td>Name<sup>*</sup></td>
+			</tr>
+			<tr>
+				<td>
+					<label for="firstName"><input type="text" placeholder="First Name"></label>
+					<label for="lastName"><input type="text" placeholder="Last Name"></label>
+				</td>
+			</tr>
+			<tr>
+				<td>Email<sup>*</sup></td>
+			</tr>
+			<tr>
+				<td><label for="email"><input type="text" placeholder="Email"></label></td>
+			</tr>
+			<tr>
+				<td>Your Experience<sup>*</sup></td>
+			</tr>
+			<tr>
+				<td>
+					<div class="star">
+						<span>&#10032</span>
+						<span>&#10032</span>
+						<span>&#10032</span>
+						<span>&#10032</span>
+						<span>&#10032</span>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>Overall, how would you rate your experience with us?<sup>*</sup></td>
+			</tr>
+			<tr>
+                <td ></td>
+				<td class="radio">Very Satisfied</td>
+				<td class="radio">Satisfied</td>
+				<td class="radio">Unsatisfied</td>
+				<td class="radio">Neutral</td>
+				<td class="radio">Not Much</td>
+			</tr>
+			<tr>
+               <td class="rating">Purchase</td>
+				<td class="rating"><input type="radio"></td>
+				<td class="rating"><input type="radio"></td>
+				<td class="rating"><input type="radio"></td>
+				<td class="rating"><input type="radio"></td>
+				<td class="rating"><input type="radio"></td>
+           
+			</tr>
+            <tr>
+                <td class="rating">Service</td>
+                 <td class="rating"><input type="radio"></td>
+                 <td class="rating"><input type="radio"></td>
+                 <td class="rating"><input type="radio"></td>
+                 <td class="rating"><input type="radio"></td>
+                 <td class="rating"><input type="radio"></td>
+            
+             </tr>
+             <tr>
+                <td class="rating">Company overall</td>
+                 <td class="rating"><input type="radio"></td>
+                 <td class="rating"><input type="radio"></td>
+                 <td class="rating"><input type="radio"></td>
+                 <td class="rating"><input type="radio"></td>
+                 <td class="rating"><input type="radio"></td>
+            
+             </tr>
+            <tr>
+                <td>How likly are you to<sup>*</sup> </td>
+            </tr>
+			<tr>
+                <td ></td>
+				<td class="radio">Very likely</td>
+				<td class="radio">likely</td>
+				<td class="radio">Unlikely</td>
+				<td class="radio">Very Unlikely</td>
+				<td class="radio">Neutral</td>
+			</tr>
+            <tr>
+                <td class="rating">Buy from us again</td>
+                 <td class="rating"><input type="radio"></td>
+                 <td class="rating"><input type="radio"></td>
+                 <td class="rating"><input type="radio"></td>
+                 <td class="rating"><input type="radio"></td>
+                 <td class="rating"><input type="radio"></td>
+            
+             </tr>
+             <tr>
+                <td class="rating">Recommended our products to others</td>
+                 <td class="rating"><input type="radio"></td>
+                 <td class="rating"><input type="radio"></td>
+                 <td class="rating"><input type="radio"></td>
+                 <td class="rating"><input type="radio"></td>
+                 <td class="rating"><input type="radio"></td>
+            
+             </tr>
+             <tr>
+                <td class="rating">Recommended our company to others</td>
+                 <td class="rating"><input type="radio"></td>
+                 <td class="rating"><input type="radio"></td>
+                 <td class="rating"><input type="radio"></td>
+                 <td class="rating"><input type="radio"></td>
+                 <td class="rating"><input type="radio"></td>
+            
+             </tr>
+             <tr>
+                <td>Additional suggestions</td>
+             </tr>
+             <tr>
+               <td> <textarea name="comment" rows="6" column="600"></textarea></td>
+             </tr>
+<tr>
+                <td id="padding"><input type="button" value="Submitt"></td>
+                </tr>
+
+            </table>
+          </form>
+</body>
+</html>
